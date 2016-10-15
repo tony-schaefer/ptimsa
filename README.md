@@ -11,4 +11,7 @@ compile with 'gfortran -O3 ptimsa.f95 -o ptimsa.e'
 example usage:
 
 
-./ptimsa -c spc216.gro -ci phenol.pdb -n 5 -g SOL -dl SOL -oc phenol-in-water.pdb 
+./ptimsa.e -c spc216.gro -ci phenol.pdb -n 5 -g SOL -dl SOL -oc phenol-in-water.pdb 
+
+
+running ./ptimsa.e with -h or nothing will show more options
