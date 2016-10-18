@@ -242,6 +242,7 @@
               read(6,'(a)',iostat=ios) str
               str=adjustl(str)
               if(ios.ne.0.or.str(1:1).eq.'[') exit
+              str=' '//str
               n=90
               do k=89,1,-1
                 if(str(k:k).eq.' '.and.str(k+1:k+1).ne.' ') then
